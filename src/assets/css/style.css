@@ -478,10 +478,10 @@ section {
 }
 
 .skills .icon-box {
-  width: 256px;
-  height: 256px;
+  width: 180px;
+  height: 180px;
   text-align: center;
-  padding: 40px 20px 80px 20px;
+  padding: 10px 10px 80px 10px;
   transition: all ease-in-out 0.3s;
   background: #fff;
 }
@@ -513,7 +513,7 @@ section {
 .skills .icon-box h4 {
   font-weight: 600;
   margin: 10px 0 15px 0;
-  font-size: 22px;
+  font-size: 18px;
 }
 .skills .icon-box h4 a {
   color: #2c4964;
