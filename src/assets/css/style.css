@@ -564,7 +564,7 @@ section {
 .portfolio .portfolio-wrap {
   transition: 0.3s;
   position: relative;
-  overflow: hidden;
+  /*overflow: hidden;*/
   z-index: 1;
   min-height:auto;
   
