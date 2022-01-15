@@ -203,35 +203,6 @@
           <div class="col-lg-4 col-md-6 portfolio-item">
             <div class="portfolio-wrap">
               <img id= "pet"src="assets/img/portfolio/whatis.png" class="img-fluid">
-              <script>
-                var timestamp = new Date().getTime();     
-     
-     var el = document.getElementById("pet");     
-          
-     el.src = "assets/img/portfolio/whatis.png?t=" + timestamp; 
-                function refreshImage(imgElement, imgURL){    
-    // create a new timestamp 
-    var timestamp = new Date().getTime();  
-  
-    var el = document.getElementById(imgElement);  
-  
-    var queryString = "?t=" + timestamp;    
-   
-    el.src = imgURL + queryString;    
-}  
-                /*var newImage = new Image();
-                newImage.src = "assets/img/portfolio/whatis.png";
-
-                function updateImage() {
-                  if (!newImage.complete) {
-                    document.getElementById("pet").src = newImage.src;
-                    newImage = new Image();
-                    number++;
-                    newImage.src = "assets/img/portfolio/whatis.png" + new Date().getTime();;
-                  }
-
-                  setTimeout(updateImage, 1000);
-                }*/</script>
               <div class="portfolio-info">
                 <h4>PetAuxilium</h4>
               </div>
