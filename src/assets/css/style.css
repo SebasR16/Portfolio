@@ -531,6 +531,7 @@ section {
 
 .portfolio .portfolio-item {
   margin-bottom: 30px;
+  min-height: auto;
 }
 .portfolio #portfolio-flters {
   padding: 0;
